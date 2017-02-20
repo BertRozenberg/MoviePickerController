@@ -29,7 +29,7 @@ I needed a MoviePicker and didn't like the one iOS supplies. So, I wrote my own.
 It turned out great, so I decided to share it with others. Feel free to use it.
 
 ## Installation
-To add AST to your MoviePickerController:
+To add MoviePickerController to your project:
 -	Drag and drop the MoviePickerController directory to your project.
 -	Add the frameworks AVFoundation, AVKit and Photos to your project.
 -	Add the key NSPhotoLibraryUsageDescription to your info.plist
