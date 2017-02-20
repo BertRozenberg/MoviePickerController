@@ -78,39 +78,39 @@ Check out MovieRecord.h for its properties.
 ## Optional Properties
 After initializing the moviePickerController and before presenting is, you can modify its behavior a little. 
 It's all optional.
--	movieCancelBlock
+-	movieCancelBlock</br>
 	This block is called when the user selects Cancel from the moviePickerController. 
 	Might be useful on the iPhone and is useless on the iPad (popover).
 	
--	assetsFetchResult
+-	assetsFetchResult</br>
 	If you allready have an assetsFetchResult, you cab hand it over to the moviePickerController. 
 	Otherwise moviePickerController will do the fetch for you.
 	
--	firstFrame
+-	firstFrame</br>
 	Often the first frame of a movie is just black which makes it hard to make a choice.
 	For that reason moviePickerController will, by default, not use the first frame.
 	It just picks a frame from a few seconds into the movie. The default is 5 seconds.
 
--	show_playbutton
+-	show_playbutton</br>
 	When showing the available movies, moviePickerController adds a play button to each movie picture.
 	By tapping the play button, the user can preview his choice.
 	If you don't want to offer this option, specify NO to this option.
 	Default is YES.
 
--	button_Size
+-	button_Size</br>
 	The size of the above play button.
     Default is 60.0
     
--	button_Alpha
+-	button_Alpha</br>
 	The transparency of the above play button.
     Default is 0.3
 
--	show_time
+-	show_time</br>
 	By default moviePickerController prints the duration of the movie to the bottom right of the picture.
 	If you don't want to offer this option, specify NO to this option.
 	Default is YES.
 
--	cell_height
+-	cell_height</br>
 	Just to be complete, you can change the height of the table cells.
 	Default is 200.0
 
