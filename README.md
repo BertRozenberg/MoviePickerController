@@ -40,7 +40,7 @@ Using MoviePickerController is pretty easy.
 	to call the MoviePickerController.
 -	Ask the user for permission as soon as possible. From your AppDelegate or from your Main ViewController.
 	For example:
-	``` objective-c
+``` objective-c
 	- (void)viewDidLoad {
     		[super viewDidLoad];
 		if ([PHPhotoLibrary authorizationStatus] == PHAuthorizationStatusNotDetermined) {
